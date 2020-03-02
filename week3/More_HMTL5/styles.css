@@ -1,0 +1,43 @@
+header
+    { 
+        background: white  url(\images\kissclipart-boston-celtics-sweep-clipart-boston-celtics-milwau-e81dd18d1e033374.jpg) 50% 50% no-repeat;
+        
+     }
+nav{
+    text-align: right;
+    
+    margin: auto;
+    background-origin: padding-box;
+    text-size-adjust: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border: white;
+}
+nav ul {
+    display:inline-block;text-align:center;
+}
+h1{
+    border: forestgreen ;
+    border-radius: 3px;
+}
+img{
+    display: inline;
+}
+#playerimg{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center
+}
+
+html { 
+    background: url(images/boston_celtics.png) no-repeat center center fixed; 
+    
+    background-size: cover;
+  }
+  p{
+      font-weight: bold;
+      font-size: 18px;
+  }
+  tr{
+      background-color: whitesmoke;
+  }
