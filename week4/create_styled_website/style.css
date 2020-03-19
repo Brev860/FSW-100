@@ -107,7 +107,7 @@ ul{
         border: 3px white solid;
 }
 h2{
-    background-color: grey;
+        
         padding: 10px;
         margin-top: 20px;
         margin-left: 30%;
@@ -117,5 +117,20 @@ h2{
         border: 3px white solid;
         font: 80x;
         text-align: center;
+        background:url(images/liana-de-laurent-de-laurent-AkmgegI8iso-unsplash2.jpg) 100% 50% no-repeat;
         
+}
+
+footer{
+        background:url(images/liana-de-laurent-de-laurent-AkmgegI8iso-unsplash2.jpg) 100% 50% no-repeat;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 600px;
+        color: honeydew;
+        border: 3px white solid;
+        font-size: 120x;
+        text-align: center;
+        font-style: bold italic;
 }
