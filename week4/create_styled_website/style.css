@@ -1,0 +1,121 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html { 
+    background: url(images/jazmin-quaynor-CXjp1ycr5Vw-unsplash.jpg) no-repeat; 
+
+    background-size: cover;
+  }
+  header{
+    
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+  }
+ 
+
+  .title{
+      border: 5px white solid;
+      background:url(images/liana-de-laurent-de-laurent-AkmgegI8iso-unsplash2.jpg) 100% 50% no-repeat;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 15px;
+      width: 600px;
+      height: 100px;
+   
+  }
+  
+  .fancy_nav {
+    width: 32%;
+    background-color: #555;
+    overflow: auto;
+     border: 3px black solid;
+     position: relative;
+     left: 35%;
+  }
+  
+  .fancy_nav a {
+      float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .fancy_nav a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    table{
+        border: 3px solid white;
+        background: grey;
+        position: relative;
+        top: 50%;
+        left: 25%;
+        width: 50%;
+        margin: 10px;
+    }
+    .frame {
+        background-color: white;
+        background: url(images/mec-rawlings-yDs3UCbhTX4-unsplash1jpg) 50% 50% no-repeat;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 600px;
+        color: honeydew;
+        border: 3px white solid;
+        padding: 15px;
+     }
+
+     p{
+         background: grey;
+         font: 50px;
+         border: 2px white solid;
+         padding: 15px;
+     }
+
+img{
+    height: 135px;
+    width: 140px;
+    position: relative;
+    left: 436px;
+    border: 2px white solid;
+    margin: 10px;
+}
+ul{
+    background-color: grey;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 600px;
+        color: honeydew;
+        border: 3px white solid;
+}
+h2{
+    background-color: grey;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 600px;
+        color: honeydew;
+        border: 3px white solid;
+        font: 80x;
+        text-align: center;
+        
+}
