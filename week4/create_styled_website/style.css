@@ -99,12 +99,14 @@ img{
 ul{
     background-color: grey;
         padding: 10px;
+        padding-left: 20px;
         margin-top: 20px;
         margin-left: 30%;
         margin-right: 10%;
         width: 600px;
         color: honeydew;
         border: 3px white solid;
+        display: inline-block;
 }
 h2{
         
