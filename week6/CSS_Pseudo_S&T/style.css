@@ -1,0 +1,127 @@
+html, body{
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    height: 100px;
+    margin: 2px;
+    grid-gap: 2px ;
+    justify-content: center;
+    
+}
+
+header{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    
+}
+
+header:hover{
+    border-radius: 50px;
+    background-color: green;
+    color: papayawhip;
+    margin: 9px;
+}
+nav{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    
+}
+nav:hover{
+    border-radius: 50px;
+    background-color: orange;
+    color: papayawhip;
+    margin: 9px;
+}
+main{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    
+}
+main:hover{
+    border-radius: 50px;
+    background-color: yellow;
+    margin: 9px;
+    margin: 9px;
+    
+    
+}
+
+#div1{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    
+}
+
+#div1:hover{
+    background-color: blue;
+    border-radius: 50px;
+    color: papayawhip;
+    margin: 9px;
+}
+
+#div2{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    
+}
+#div2:hover{
+    border-radius: 50px;
+    background-color: purple;
+    color: papayawhip;
+    margin: 9px;
+}
+
+footer{
+    background-color: red;
+    border: 5px black thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    grid-column: 1/7;
+    
+}
+ footer:hover{
+   background-color: black;
+   border-radius: 50px;
+   color: papayawhip;
+   margin: 9px;
+}
+
