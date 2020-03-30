@@ -1,0 +1,287 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg);
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat( 1fr);
+    margin: 5px;
+}
+h2{
+    font-size: 22px;
+    background-color: #D9D6CF;
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    padding: 30px;
+    border: white solid;
+    height: 90px;
+    margin: 15px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    font-size: 22px;
+    background-color: #D9D6CF;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    border: white solid;
+}
+ h3{
+    font-size: 22px;
+    background-color: #D9D6CF;
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    border: white solid;
+    flex-wrap: wrap;
+
+}
+
+
+nav {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border: white solid;
+    background: #D9D6CF;
+    display: flex;   
+    transition: ease-in;
+}
+
+nav > a {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    flex-wrap: wrap;
+    padding: 15px;
+    background: whitesmoke;
+}
+nav > a:hover{
+    background: black;
+    color: white;
+    width: 110px
+
+    
+}
+
+
+
+#container2{
+    display: grid;
+    margin: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    
+}
+main {
+    
+    
+    padding: 8px;
+    border: white solid;
+    
+    top: 0px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #D9D6CF;
+    text-align: center;
+    bottom: 5px;
+    height: 70px;
+    border: white solid;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    margin: 5px;
+
+
+}
+.leftcolumn {   
+    width: auto;
+  }
+
+.row:after {
+    content: "";
+    display: grid;
+    clear: both;
+  }
+
+  .frame {
+    background-color: white;
+    padding: 20px;
+    margin: 8px;
+    width: auto;
+    height: 320px;
+ }
+
+ .img1{
+     grid-column: 1/2;
+     grid-row: 1/2;
+     position: absolute;
+     float: left;
+    
+ }
+ .img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    float: left;
+ }
+ .img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    position: relative;
+    float: left;
+ }
+ .img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: relative;
+    float: left;
+ }
+ .img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+    float: left;
+ }
+ .img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    position: relative;
+    float: left;
+ }
+ img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    float: right;
+    transition: ease-in;
+  }
+  
+  img:hover {
+      opacity: 0.7;
+       width: 220px;
+
+}
+
+    @media only screen and (max-width: 360px) {
+        
+            #container2{
+                display: grid;
+                margin: 5px;
+                grid-template-columns: repeat(1fr);
+                grid-template-rows: repeat(6, 1fr);
+                position: relative;
+                
+            }
+            main {
+                
+                grid-row: 3/4;
+                padding: 8px;
+                border: white solid;
+                grid-row: 1/5;
+                top: 0px;
+            }
+            
+            footer {
+                font-size: 20px;
+                background-color: #D9D6CF;
+                text-align: center;
+                bottom: 5px;
+                height: 70px;
+                border: white solid;
+                padding: 20px;
+                font-family: 'Abril Fatface', cursive;
+                font-size: 20px;
+                margin: 5px;
+            
+            
+            }
+            .leftcolumn {   
+                width: auto;
+              }
+            
+            .row:after {
+                content: "";
+                display: grid;
+                clear: both;
+              }
+            
+              .frame {
+                  display: flex;
+                background-color: white;
+                padding: 20px;
+                margin: 8px;
+                width: auto;
+                height: 320px;
+                flex-wrap: wrap;
+             }
+             p{
+                 flex-wrap: wrap;
+             }
+            
+             .img1{
+                 grid-column: 1/2;
+                 grid-row: 1/2;
+                 position: absolute;
+                 float: left;
+                
+             }
+             .img2{
+                grid-column: 2/3;
+                grid-row: 2/3;
+                position: relative;
+                float: left;
+             }
+             .img3{
+                grid-column: 3/4;
+                grid-row: 3/4;
+                position: relative;
+                float: left;
+             }
+             .img4{
+                grid-column: 1/2;
+                grid-row: 4/5;
+                position: relative;
+                float: left;
+             }
+             .img5{
+                grid-column: 2/3;
+                grid-row: 5/6;
+                position: relative;
+                float: left;
+             }
+             .img6{
+                grid-column: 3/4;
+                grid-row: 6/7;
+                position: relative;
+                float: left;
+             }
+             img {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+                float: right;
+               
+              }
+              
+              img:hover {opacity: 0.7}
+
+        }
+
+      
